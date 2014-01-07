@@ -10,7 +10,7 @@ package fretboardgame;
  *
  * @author Logan
  */
-public enum NoteGenerator {
+public enum NoteGeneratorA {
     
     A("A"),
     A_Sharp("A#"),
@@ -27,7 +27,7 @@ public enum NoteGenerator {
     
     private String name;
     
-    private NoteGenerator(String noteName){
+    private NoteGeneratorA(String noteName){
         this.name=noteName;
     }
     
